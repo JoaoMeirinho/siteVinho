@@ -197,9 +197,9 @@ section{
         
         
     }
-    /* #check:checked ~ .menu li{
+    
         
-    } */
+    } 
     #check:checked ~ .menu .sidebar{
         /* transition: display 0.3s ease-in-out; */
         display: block;
