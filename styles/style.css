@@ -20,23 +20,15 @@ body{
     object-fit: cover;
     /* z-index: 0; */
 }
-nav{
-    display: -webkit-box-flex;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box-flex;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
-	display: flex;
-    /* flex-direction: column; */
-    overflow: visible;  
+nav{    
+	display:table;
+    
     
 }
 
 .logo{
-    display: -webkit-box-flex;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box-flex;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
-	display: flex;
+
+	
     /* font-size: clamp(0.3em, 0.8em + 0.8vw, 1.2em); */
     /* position:absolute; */
     top: -40px;
