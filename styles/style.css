@@ -102,7 +102,7 @@ input{
     padding: 5px;
     
 }
-.menu li a{color:rgb(255, 255, 255); text-decoration:none; padding: 10px; display:block; font-size: clamp(0.9em, 0.5em + 0.5vw, 1.2em);-webkit-transition: 0.3s ease-in;
+.menu li a{color:rgb(255, 255, 255); text-decoration:none; padding: 10px; display:block; font-size: clamp(0.7em, 0.5em + 0.5vw, 1.2em);-webkit-transition: 0.3s ease-in;
     -moz-transition: 0.3s ease;
     transition: 0.3s ease;}
 .menu li a:hover{
