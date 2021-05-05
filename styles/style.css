@@ -21,14 +21,22 @@ body{
     /* z-index: 0; */
 }
 nav{
-    display: -webkit-flex;
-    display: flex;
+    display: -webkit-box-flex;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box-flex;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;
     /* flex-direction: column; */
     overflow: visible;  
     
 }
 
 .logo{
+    display: -webkit-box-flex;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box-flex;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;
     /* font-size: clamp(0.3em, 0.8em + 0.8vw, 1.2em); */
     /* position:absolute; */
     top: -40px;
@@ -157,7 +165,11 @@ section{
     transform:scale(1.2);
 }
 .quemsomos{
-    display: flex;
+    display: -webkit-box-flex;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box-flex;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;
     margin-top: 80px;
     background-color:white ;
     width:100%;
@@ -215,6 +227,7 @@ article{
         color: black;
     }
     .icon{
+        display: -webkit-flex;
         display: flex;
         z-index: 2;
         position: absolute;
