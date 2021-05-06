@@ -9,8 +9,11 @@
     <title>Blend of two minds</title>
 </head>
 <body> 
+    <div class="bg">
+        <img src="wineFil.jpg" class="bg-img">
+    </div>
         <nav>
-            <img src="wineFil.jpg" class="bg-img">
+            
             <input type="checkbox" name="check" id="check">
                 <div class="icon">
                     <label id="icon" for="check"><img src="sidebarWhite.png"></label>
@@ -21,9 +24,9 @@
                 </div>
                 <div class="sidebar">
                     <li><a href="#quemsomos">Quem somos</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Contatos</a></li>
-                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
                 </div>
             </ul>
            
@@ -36,14 +39,14 @@
                 <p>As melhores uvas, os melhores vinhos, para os melhores clientes.</p>
             </div>
             <div class="botao">
-                <a href='#quemsomos'><button>Conheça nosso trabalho!</button></a>
+                <a href='#produtos'><button>Conheça nosso trabalho!</button></a>
             </div>
         </section>
-        <div class="quemsomos" id="quemsomos">
+        <div class="artigo" id="quemsomos">
             <div class="img-cont">
-                <img src="img/ex.jpg">
+                <img src="img/casal.png">
             </div>
-            <article>
+            <article class="article">
             <h1>Quem somos?</h1>
             <p>A Blend of two minds é uma vinícola
                 que nasceu na junção de um casal 
@@ -53,8 +56,78 @@
                 o vinho transforma, agrega e permite experiências 
                 únicas.
             </p>
+            <h2>Nossa Empresa</h2>
+            <h3><i>Missão:</i></h3>
+            <p>Fornecer produtos de alta qualidade e promover a cultura do vinho no Brasil.</p>
+            <h3><i>Visão:</i></h3>
+            <p>Ser referência ao se tratar em consumo e produção de vinho no país.
+            </p>
+            <h3><i>Valores:</i></h3>
+            <p>Respeito ao consumidor; Inovação e Simplicidade; Respeito a Natureza; Sustentabilidade; Aprendizado contínuo; Empatia; Educação; Ética e Honestidade.
+            </p>
             </article>
             
+            <div class="img-cont" id='produtos'>
+                <img src="img/produtos.jpeg">
+            </div>
+            <article class='article'>
+                <h1>Produtos</h1>
+                <ul>
+                    <li>Malbec 2021</li>
+                    <li>Cabernet Sauvignon 2021</li>
+                    <li>Marselan 2021</li>
+                    <li>B2M 2021 (Marselan + Malbec)</li>
+                    <li>Lorena 2021</li>
+                    <li>Rose 2021</li>
+                </ul>
+            </article>
+            <div class="img-cont" id='servicos'>
+                <img src="img/servicos.jpg">
+            </div>
+            <article class='article'>
+                <h1>Serviços</h1>
+                <h2>Cursos</h2>
+                <ul>
+                    <li>Cursos Básicos + Harmonização</li>
+                    <li>Cursos Temáticos</li>
+                    <li>Cursos Teóricos</li>
+                    <li>Degustações Guiadas</li>
+                    <li>Harmonizações Não COnvencionais</li>
+                    <li>Cursos Personalizados(Consulte o seu)</li>
+                </ul>
+                <h2>Consultoria</h2>
+                <h2>Vitícola</h2>
+                <ul>
+                    <li>Laudo de viabilidade de área</li>
+                    <li>Assessoramento de escolhas de variedades e mercado
+                        a ser atingido
+                    </li>
+                    <li>Acompanhamento de implantação de vinhedo</li>
+                    <li>Acompanhamento de produção</li>
+                </ul>
+                <h2>Enológica</h2>
+                <ul>
+                    <li>Acompanhamento de Maturação</li>
+                    <li>Assessoramento de Vinificação</li>
+                    <li>Intervenção durante todo o processo, desde a produção
+                        das uvas até o envase
+                    </li>
+                </ul>
+            </article>
+            <div class="img-cont">
+                <img src="img/contatos.jpg">
+            </div>
+            <article class="article" id='contatos'>
+            <h1>Entre em contato conosco!</h1>
+                <div class="botao-face">
+                 <a href="https://www.facebook.com/vinicolab2m"><button>Facebook</button></a>
+                </div>
+                <div class="botao-insta">
+                    <a href="https://www.instagram.com/vinicolab2m/"><button>Intagram</button></a>
+                </div>
+
+            </article>
         </div>
+      
 </body>
 </html>
